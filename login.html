@@ -145,14 +145,14 @@
                     <label style="color: #aaa; cursor: pointer;">
                         <input type="checkbox" style="margin-right: 5px;"> Remember me
                     </label>
-                    <a href="#" style="color: var(--primary); text-decoration: none;">Forgot Password?</a>
+                    <a href="404.html" style="color: var(--primary); text-decoration: none;">Forgot Password?</a>
                 </div>
 
                 <button type="submit" class="btn-login">Sign In</button>
             </form>
 
             <div class="login-footer">
-                Don't have an account? <a href="#">Register Here</a>
+                Don't have an account? <a href="404.html">Register Here</a>
             </div>
 
             <div style="margin-top: 30px; text-align: center; position: relative;">
@@ -163,12 +163,15 @@
             </div>
 
             <div style="display: flex; gap: 15px; margin-top: 25px;">
-                <button
-                    style="flex: 1; padding: 12px; border-radius: 50px; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); color: white; cursor: pointer; transition: 0.3s;"><i
-                        class="fab fa-google" style="margin-right: 8px;"></i> Google</button>
-                <button
-                    style="flex: 1; padding: 12px; border-radius: 50px; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); color: white; cursor: pointer; transition: 0.3s;"><i
-                        class="fab fa-apple" style="margin-right: 8px;"></i> Apple</button>
+                <button onclick="window.location.href='404.html'"
+        style="flex: 1; padding: 12px; border-radius: 50px; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); color: white; cursor: pointer; transition: 0.3s;">
+        <i class="fab fa-google" style="margin-right: 8px;"></i> Google
+    </button>
+
+    <button onclick="window.location.href='404.html'"
+        style="flex: 1; padding: 12px; border-radius: 50px; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); color: white; cursor: pointer; transition: 0.3s;">
+        <i class="fab fa-apple" style="margin-right: 8px;"></i> Apple
+    </button>
             </div>
         </div>
     </div>
