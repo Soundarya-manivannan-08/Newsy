@@ -740,27 +740,27 @@ footer::after {
 /* Background Images */
 
 .politics {
-    background: url("https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&w=800&q=80");
+    background: url("./assets/img_1541872703-74c5e44368f9.webp");
     border: 4px solid #ff3366;
 }
 
 .sports {
-    background: url("https://images.unsplash.com/photo-1461896836934-ffe607ba8211?auto=format&fit=crop&w=800&q=80");
+    background: url("./assets/img_1461896836934-ffe607ba8211.webp");
     border: 4px solid #ff9900;
 }
 
 .media {
-    background: url("https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=800&q=80") center/cover;
+    background: url("./assets/img_1516035069371-29a1b244cc32.webp") center/cover;
     border: 4px solid #bc00ff;
 }
 
 .tech {
-    background: url("https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80");
+    background: url("./assets/img_1518770660439-4636190af475.webp");
     border: 4px solid #00e5ff;
 }
 
 .business {
-    background: url("https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=800&q=80");
+    background: url("./assets/img_1454165804606-c3d57bc86b40.webp");
     border: 4px solid #00ff88;
 }
 
@@ -775,7 +775,7 @@ footer::after {
 
 #about.padded-section {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)),
-        url('https://images.unsplash.com/photo-1495020689067-958852aba221?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');
+        url('./assets/img_1504711434969-e33886168f5c.webp');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -784,7 +784,7 @@ footer::after {
 
 #services {
     background: linear-gradient(rgba(10, 11, 16, 0.9), rgba(10, 11, 16, 0.95)),
-        url('https://images.unsplash.com/photo-1517048676732-d65bc937f952?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');
+        url('./assets/img_1517048676732-d65bc937f952.webp');
     background-size: cover;
     background-position: center;
     padding: 80px 50px;
