@@ -250,7 +250,7 @@ header {
     z-index: 1001;
     border-radius: 8px;
     border: 1px solid rgba(255, 255, 255, 0.05);
-    margin-top: 5px;
+    top: 100%;
     overflow: hidden;
 }
 
@@ -267,7 +267,8 @@ header {
     color: var(--primary);
 }
 
-.dropdown:hover .dropdown-content {
+.dropdown:hover .dropdown-content,
+.dropdown-content:hover {
     display: block;
 }
 
@@ -471,7 +472,6 @@ header {
 
 .card:hover {
     transform: translateY(-10px) scale(1.02);
-    background: rgba(255, 255, 255, 0.12);
     border-color: var(--primary);
     box-shadow: 0 15px 40px rgba(0, 242, 255, 0.15);
 }
@@ -719,6 +719,14 @@ footer::after {
     transition: transform 0.3s ease;
 }
 
+.category-layout .card {
+    transition: transform 0.3s ease;
+}
+
+.category-layout .card:hover {
+    transform: scale(1.05);
+}
+
 
 
 /* TEXT STYLE */
@@ -737,11 +745,19 @@ footer::after {
     font-weight: 600;
 }
 
+/* .overlay {
+    display: none;
+} */
+
 /* Background Images */
 
 .politics {
     background: url("./assets/img_1541872703-74c5e44368f9.webp");
     border: 4px solid #ff3366;
+
+}
+.politics:hover {
+    transform: scale(1.08);
 }
 
 .sports {
@@ -762,6 +778,19 @@ footer::after {
 .business {
     background: url("./assets/img_1454165804606-c3d57bc86b40.webp");
     border: 4px solid #00ff88;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.3);
+    transition: 0.3s;
+}
+
+.card:hover .overlay {
+    background: rgba(0,0,0,0.6);
 }
 
 /* ================= RESPONSIVE ADJUSTMENTS ================= */
